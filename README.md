@@ -7,3 +7,20 @@
 - **Sample Dialogues**: Display example doctor replies drawn from processed MedDialog JSON entries.
 - **Text-to-Speech**: Generate audio playback for precautions and doctor replies using gTTS.
 - **User Interface**: Implemented with Gradio Blocks on Hugging Face Spaces, featuring automatic transcription updates and seamless analysis without extra button clicks.
+
+
+## Running Locally
+
+
+   ```bash
+   python -m venv .venv
+   # On macOS / Linux
+   source .venv/bin/activate
+   # On Windows (PowerShell)
+   .venv\Scripts\Activate.ps1
+   # On Windows (CMD)
+   .venv\Scripts\activate
+
+   pip install --upgrade pip
+pip install -r requirements.txt
+python app.py
